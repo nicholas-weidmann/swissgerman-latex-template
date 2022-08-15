@@ -24,15 +24,19 @@ Es existiert ein [Installer](https://tug.org/texlive/windows.html) für TeX Live
 
 ## WSL
 
+Die Nutzung von WSL setzt Linux Kenntnisse voraus.
+
 WSL kann in einer mit Administrator gestarteten Kommandozeile mit dem Befehl `wsl --install` installiert werden.
 
 ### WSL-Remote
 
-In der WSL virtuellen Maschine kann TeX Live kann mit dem Befehl `sudo apt install texlive-full -y` installiert werden.
+In der WSL virtuellen Maschine kann TeX Live mit dem Befehl `sudo apt install texlive-full -y` installiert werden.
 
 Die Erweiterung [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) wird genutzt, um LaTeX Workshop Zugriff auf die Linux Umgebung zu verschaffen.
 
 ## Docker
+
+Die Nutzung von Container setzt Docker Kenntnisse voraus.
 
 Es existiert ein [Installer](https://docs.docker.com/desktop/install/windows-install/) für Docker auf Windows. Docker auf Windows setzt [WSL](#wsl) voraus.
 
@@ -45,3 +49,4 @@ Die Konfiguration des [Devcontainer](.devcontainer/devcontainer.json) und [Docke
 ### Docker-Runner
 
 Um diese Lösung zu nutzen, muss in der [Workspacekonfiguration](.vscode/settings.json) der Key `latex-workshop.docker.enabled: true` gesetzt werden.
+Es ist anzumerken, dass alle anderen Installationsmöglichkeiten somit nicht mehr genutzt werden.
