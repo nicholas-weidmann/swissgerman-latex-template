@@ -1,0 +1,8 @@
+{
+  "editor.wordWrap": "on",
+  "latex-workshop.latex.outDir": "%DIR%/out",
+  // set latex-workshop.docker.enabled to true, to use the experimental docker feature
+  "latex-workshop.docker.enabled": false,
+  "latex-workshop.docker.image.latex": "texlive/texlive:latest",
+  "ltex.language": "de-CH"
+}

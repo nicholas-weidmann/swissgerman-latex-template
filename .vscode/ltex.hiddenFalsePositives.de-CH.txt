@@ -1,0 +1,5 @@
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\Qvideo misc\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QVorlage für wissenschaftliche Dokumente mit \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q Höhere Fachschule Uster Nicholas Weidmann August 2022\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QTeX ([t\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Qx], im deutschsprachigen Raum auch [t\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Qç]), in Eigenschreibweise \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, ist ein von Donald E. Knuth ab 1977 entwickeltes und 1986 fertiggestelltes Textsatzsystem mit eingebauter Makrosprache (die ebenfalls TeX genannt wird).\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q. lof . lot\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\Q. lof . lot\\E$"}
