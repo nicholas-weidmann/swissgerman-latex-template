@@ -36,7 +36,7 @@ Die Erweiterung [Remote - WSL](https://marketplace.visualstudio.com/items?itemNa
 
 ## Docker
 
-Die Nutzung von Container setzt Docker Kenntnisse voraus.
+Die Nutzung von Containern setzt Docker Kenntnisse voraus.
 
 Es existiert ein [Installer](https://docs.docker.com/desktop/install/windows-install/) für Docker auf Windows. Docker auf Windows setzt [WSL](#wsl) voraus.
 
